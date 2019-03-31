@@ -1,5 +1,5 @@
 ---
-title: Time and Place
+title: "Time and Place"
 layout: default
 ---
 

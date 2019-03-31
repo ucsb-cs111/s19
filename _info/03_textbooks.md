@@ -1,5 +1,5 @@
 ---
-title: Textbooks, Readings, Videos
+title: "Textbooks, Readings, Videos"
 layout: default
 ---
 

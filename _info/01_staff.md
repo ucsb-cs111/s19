@@ -1,5 +1,5 @@
 ---
-title: Course Staff and Office Hours
+title: "Course Staff and Office Hours"
 layout: default
 ---
 
