@@ -31,8 +31,11 @@ offerings:
         baseurl: /s19
 
 offering_links:
+  - title: Syllabus
+    url: /info/syllabus
+    description: "Syllabus"
   - title: Calendar
-    url: /info/calendar/
+    url: /info/calendar
     description: "Assignment Calendar"
   - title: All Lecture and Section Files
     url: https://github.com/ucsb-cs111/s19-lecture-files
