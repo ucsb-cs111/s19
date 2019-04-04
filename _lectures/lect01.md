@@ -6,11 +6,10 @@ pdfurl: /lectures/pdf/lect01.pdf
 ready: true
 ---
 
-<!---
 * {% include lecture_files.html %}
---->
+<!---
 <a href="{{page.pdfurl | relative_url }}" data-ajax="false">Slides PDF</a>
-
+--->
 # Reading Assignment
 
 [NCM](http://www.cs.ucsb.edu/~gilbert/cs111/chapters/)

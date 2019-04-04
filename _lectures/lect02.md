@@ -7,7 +7,9 @@ ready: true
 ---
 
 * {% include lecture_files.html %}
+<!---
 <a href="{{page.pdfurl | relative_url }}" data-ajax="false">Slides PDF</a>
+--->
 
 # Reading Assignment
 
