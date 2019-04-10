@@ -18,7 +18,7 @@ and $U$ is an upper triangular matrix. You can check your answer using Python, b
 $$A =
    \left(
    \begin{array}{ccc}
-    5 & -1 & -1 \\ 	
+    5 & -1 & -1 \\  
    -1 &  5 & -1 \\ 
    -1 & -1 &  5 \\
    \end{array} \right)
@@ -48,10 +48,10 @@ The product of two symmetric matrices is a symmetric matrix.
 $$P =
    \left(
    \begin{array}{cccc}
-    0 & 1 & 0 & 0 \\ 	
-    0 & 0 & 0 & 1 \\ 	
-    0 & 0 & 1 & 0 \\ 	
-    1 & 0 & 0 & 0 \\ 	
+    0 & 1 & 0 & 0 \\  
+    0 & 0 & 0 & 1 \\  
+    0 & 0 & 1 & 0 \\  
+    1 & 0 & 0 & 0 \\  
    \end{array} \right)
 $$
 Find a 4-element permutation vector {\tt v = np.array(something)}
@@ -73,8 +73,7 @@ Write {\tt Usolve()}, analogous to {\tt Lsolve()} that we covered in class in le
 
 Warning: Notice that, unlike in {\tt Lsolve()}, 
 the diagonal elements of $U$ don't have to be equal to one.
-Test your answer, both by itself and with {\tt LUfactor()},
-and turn in the resulting Python code onto Gradescope (this is the one problem in this assignment where you have to turn in Python code). Your TAs can explain further about file formats and Gradescope in your weekly section.
+Test your answer and turn in the resulting Python code onto Gradescope (this is the one problem in this assignment where you have to turn in Python code). Your TAs can explain further about file formats and Gradescope in your weekly section.
 \textit{Hint}: Loops can be run backward in Python, 
 say from $n-1$ down to $0$, by writing
 $$\mbox{\tt for i in reversed(range(n)):}$$
