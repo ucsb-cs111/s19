@@ -18,7 +18,7 @@ and $U$ is an upper triangular matrix. You can check your answer using Python, b
 $$A =
    \left(
    \begin{array}{ccc}
-    5 & -1 & -1 \\  
+    5 & -1 & -1 \\ 	
    -1 &  5 & -1 \\ 
    -1 & -1 &  5 \\
    \end{array} \right)
@@ -48,10 +48,10 @@ The product of two symmetric matrices is a symmetric matrix.
 $$P =
    \left(
    \begin{array}{cccc}
-    0 & 1 & 0 & 0 \\  
-    0 & 0 & 0 & 1 \\  
-    0 & 0 & 1 & 0 \\  
-    1 & 0 & 0 & 0 \\  
+    0 & 1 & 0 & 0 \\ 	
+    0 & 0 & 0 & 1 \\ 	
+    0 & 0 & 1 & 0 \\ 	
+    1 & 0 & 0 & 0 \\ 	
    \end{array} \right)
 $$
 Find a 4-element permutation vector {\tt v = np.array(something)}
@@ -69,11 +69,11 @@ Test your answer and turn in the result.
 
 \par\bigskip
 \textbf {4.}
-Write {\tt Usolve()}, analogous to {\tt Lsolve()} that we covered in class in lecture 4 in week 2 (look in the appropriate online lecture file). You are writing this function in order to solve an upper triangular system $Ux=y$. The file you'll be working on and turning in is {\tt LUsolve.py} (skeleton found in the lecture file repository). 
+Write {\tt Usolve()}, analogous to {\tt Lsolve()} that we covered in class in lecture 4 in week 2 (look in the appropriate online lecture file). You are writing this function in order to solve an upper triangular system $Ux=y$. The file you'll be working on and turning in is {\tt Usolve.py} (skeleton found in the lecture file repository). 
 
 Warning: Notice that, unlike in {\tt Lsolve()}, 
 the diagonal elements of $U$ don't have to be equal to one.
-Test your answer, both by itself and with {\tt LUsolve()},
+Test your answer, both by itself and with {\tt LUfactor()},
 and turn in the resulting Python code onto Gradescope (this is the one problem in this assignment where you have to turn in Python code). Your TAs can explain further about file formats and Gradescope in your weekly section.
 \textit{Hint}: Loops can be run backward in Python, 
 say from $n-1$ down to $0$, by writing
