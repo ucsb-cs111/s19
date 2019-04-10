@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+\newcommand{\numpy}{{\tt numpy}}    % tt font for numpy
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+$$\mbox{\Large \textbf {CS 111 (S19): Homework 2}}$$
+$$\mbox{\textbf {Due by 6:00pm Monday, April 14}}$$
+$$\mbox{\textbf {NAME and PERM ID No.:} Gaucho Ol\'e, 1234567 (replace with yours)}$$
+$$\mbox{\textbf {UCSB EMAIL:} GauchoOle@ucsb.edu (replace with yours)}$$
+
+\par\bigskip
+\textbf {1.}
+Write the following matrix in the form $A=LU$, 
+where $L$ is a unit lower triangular matrix
+(that is, a lower triangular matrix with ones on the diagonal) 
+and $U$ is an upper triangular matrix. You can check your answer using Python, but for this exercise, you need to also show the steps you took to get to your answer with some explanation to go with them.
+$$A =
+   \left(
+   \begin{array}{ccc}
+    5 & -1 & -1 \\  
+   -1 &  5 & -1 \\ 
+   -1 & -1 &  5 \\
+   \end{array} \right)
+$$
+
+\par\bigskip
+\textbf {2.}
+The following three statements are all \textbf {false}. For each one, 
+give a counterexample consisting of a 3-by-3 matrix or matrices, 
+and show the computation that proves that the statement fails.
+
+\par\medskip
+\textbf {2a.}
+If $P$ is a permutation matrix and $A$ is any matrix, then $PA=AP$.
+
+\par\medskip
+\textbf {2b.}
+If matrix $A$ is nonsingular, then it has a factorization $A=LU$
+where $L$ is lower triangular and $U$ is upper triangular.
+
+\par\medskip
+\textbf {2c.}
+The product of two symmetric matrices is a symmetric matrix.
+
+\par\bigskip
+\textbf {3a.} Consider the permutation matrix 
+$$P =
+   \left(
+   \begin{array}{cccc}
+    0 & 1 & 0 & 0 \\  
+    0 & 0 & 0 & 1 \\  
+    0 & 0 & 1 & 0 \\  
+    1 & 0 & 0 & 0 \\  
+   \end{array} \right)
+$$
+Find a 4-element permutation vector {\tt v = np.array(something)}
+such that, for {\em every}\, 4-by-4 matrix $A$, 
+we have {\tt A[v,:] == P @ A}.
+Test your answer by running a few lines of Python, 
+and turn in the result. 
+
+\par\medskip
+\textbf {3b.} For the same $P$, 
+find a 4-element permutation vector {\tt w = np.array(something)}
+such that, for {\em every}\, 4-by-4 matrix $A$, 
+we have {\tt A[:,w] == A @ P}. 
+Test your answer and turn in the result.
+
+\par\bigskip
+\textbf {4.}
+Write {\tt Usolve()}, analogous to {\tt Lsolve()} that we covered in class in lecture 4 in week 2 (look in the appropriate online lecture file). You are writing this function in order to solve an upper triangular system $Ux=y$. The file you'll be working on and turning in is {\tt LUsolve.py} (skeleton found in the lecture file repository). 
+
+Warning: Notice that, unlike in {\tt Lsolve()}, 
+the diagonal elements of $U$ don't have to be equal to one.
+Test your answer, both by itself and with {\tt LUsolve()},
+and turn in the resulting Python code onto Gradescope (this is the one problem in this assignment where you have to turn in Python code). Your TAs can explain further about file formats and Gradescope in your weekly section.
+\textit{Hint}: Loops can be run backward in Python, 
+say from $n-1$ down to $0$, by writing
+$$\mbox{\tt for i in reversed(range(n)):}$$
+
+\end{document}
