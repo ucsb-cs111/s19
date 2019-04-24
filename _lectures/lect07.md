@@ -1,6 +1,6 @@
 ---
 num: "lect07"
-lecture_date: 2019-04-18
+lecture_date: 2019-04-23
 desc: "Iterative Solvers for Ax=b: The Jacobi Method"
 pdfurl: /lectures/pdf/lect07.pdf
 ready: true
