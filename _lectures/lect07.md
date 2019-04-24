@@ -14,5 +14,6 @@ ready: true
 # Reading Assignment
 
 [An Introduction to the Conjugate Gradient Method Without the Agonizing Pain by Jonathan Richard Shewchuk](https://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf)
+
 Read/skim - it's heavy on the math and it's long, so read it to get an idea only.
 
