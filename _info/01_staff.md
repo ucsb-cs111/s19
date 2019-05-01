@@ -12,9 +12,9 @@ layout: default
 
 # Teaching assistants
 
-<b><a href="https://networkscience.igert.ucsb.edu/people/munn">Steven Munn</a></b>
+<b><a href="https://sites.cs.ucsb.edu/~sjmunn/">Steven Munn</a></b>
 * Email: <A HREF="mailto:sjmunn@cs.ucsb.edu">sjmunn@cs.ucsb.edu</A>
-* Office hours: Fridays 1 PM - 3 PM, Trailer 936
+* Office hours: Tuesday 1 PM - 3 PM, Trailer 936
 
 <b><a href="">Shiyu Ji</a></b> 
 * Email: <A HREF="mailto:shiyu@ucsb.edu">shiyu@ucsb.edu</A><BR>
