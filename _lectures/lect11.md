@@ -1,8 +1,8 @@
 ---
-num: "lect10"
-lecture_date: 2019-05-07
-desc: "The IEEE Floating Point Standard"
-pdfurl: /lectures/pdf/lect10.pdf
+num: "lect11"
+lecture_date: 2019-05-09
+desc: "More on FP ; Eigenvalues and Eigenvectors"
+pdfurl: /lectures/pdf/lect11.pdf
 ready: true
 ---
 
