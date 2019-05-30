@@ -1,6 +1,6 @@
 ---
 num: "lect15"
-lecture_date: 2019-05-28
+lecture_date: 2019-05-30
 desc: "Ordinary Differential Equations: Euler and Other Methods"
 pdfurl: /lectures/pdf/lect15.pdf
 ready: true
